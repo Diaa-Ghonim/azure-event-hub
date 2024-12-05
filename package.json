@@ -1,0 +1,20 @@
+{
+    "name": "node-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon src/index.js localhost 8080"
+    },
+    "dependencies": {
+        "@azure/event-hubs": "^5.12.2",
+        "@azure/eventhubs-checkpointstore-blob": "^1.0.1",
+        "@azure/identity": "^4.5.0",
+        "@azure/storage-blob": "^12.26.0",
+        "express": "4.16.4"
+    },
+    "devDependencies": {
+        "nodemon": "1.18.4"
+    },
+    "keywords": []
+}
